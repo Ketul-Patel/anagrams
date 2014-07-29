@@ -88,6 +88,7 @@ function anagrams_map(arr) {
 	retobj.time = (+a)-(+b)
 	return retobj
 }
+
 console.log(anagrams_map(arr))
 console.log(anagrams(arr))
 
