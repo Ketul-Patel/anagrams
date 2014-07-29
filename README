@@ -1,0 +1,16 @@
+Two solutions to the Anagram challenge both implemented in JavaScript
+
+Challenge: Given an array of strings return a hash table (JS object) listing words and the number of anagrams in the array
+
+Way 1: Recursively compare strings to see if they are anagrams and then loop through the array n times to find the number of anagrams
+Advantage: no need to sort strings
+Disadvantage: need to loop through the array n times
+
+Way 2: Sort strings and add them as keys to the hash if the key doesn't already exist and if it does exist add 1 to the value associated with it to keep track of the number of anagrams
+Advantage: only loop through the array once
+Disadvantage: need to sort strings 
+
+
+Conclusion:
+Each algorithm runs in <= 1 milliseconds (measured using the built in js getTime() method).
+Out of 10 run throughs both algorithms showed the same time 5 times (1,1 or 0,0) and the recursive algorithm showed 0 while the mapping algorithm showed 1 5 times

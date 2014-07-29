@@ -91,6 +91,4 @@ function anagrams_map(arr) {
 console.log(anagrams_map(arr))
 console.log(anagrams(arr))
 
-// each algorithm runs in <= 1 milliseconds, out of 10 run throughs
-// they showed the same time 5 times (1,1 or 0,0) and the recursive 
-// algorithm showed 0 while the mapping algorithm showed 1 5 times
+
