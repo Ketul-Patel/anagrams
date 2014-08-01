@@ -12,5 +12,8 @@ Disadvantage: need to sort strings
 
 
 Conclusion:
-Each algorithm runs in <= 1 milliseconds (measured using the built in js getTime() method).
-Out of 10 run throughs both algorithms showed the same time 5 times (1,1 or 0,0) and the recursive algorithm (Way 1) showed 0 milliseconds while the mapping algorithm (Way 2) showed 1 milliseconds 5 times
+I tested the two algorithms on two sets of data, one had only 3 letter words and the other had words of varying lengths. 
+
+For the set of 3 letter words, the recursive algorithm performed poorly compared to the mapping algorithm. On average the mapping algorithm took 7 milliseconds and the recursive algorithm took 19 milliseconds.
+
+For the set of varying length words, the recursive algorithm performed better than the mapping algorithm. On average the mapping algorithm took 8 milliseconds and the recursive algorithm took 3 milliseconds.
